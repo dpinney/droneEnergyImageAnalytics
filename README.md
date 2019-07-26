@@ -11,6 +11,8 @@ Supervisor: David Pinney
 
 Since we do not have any real data available yet, I decided to make a synthetic image dataset
 
+![./Image_Creator/datasets/input/backgrounds/001.png](Test)
+
 ### Prerequisites
 
 This program need python 3 and following packages:

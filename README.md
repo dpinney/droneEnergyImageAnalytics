@@ -108,7 +108,6 @@ keras
 opencv-python
 h5py
 imgaug
+```
 
-```	
-</br>
 ### Once above requirments has been met, you can go ahead run the `train_mask_rcnn.ipynb`

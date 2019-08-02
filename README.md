@@ -162,11 +162,6 @@ h5py
 imgaug
 ```
 
-<<<<<<< HEAD
-```	
-</br>
 
 ### Once above requirments has been met, you can go ahead run the `train_mask_rcnn.ipynb`
-=======
-### Once above requirments has been met, you can go ahead run the `train_mask_rcnn.ipynb`
->>>>>>> 2e985fffd055af365ed299ac19e2bac23a0d4d49
+

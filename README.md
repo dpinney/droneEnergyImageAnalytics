@@ -11,6 +11,8 @@ Supervisor: David Pinney
 
 Since we do not have any real data available yet, I decided to make a synthetic image dataset
 
+![Test](./Image_Creator/datasets/input/backgrounds/001.png)
+
 ### Prerequisites
 
 1. This program need python 3 and following packages:
@@ -160,8 +162,13 @@ keras
 opencv-python
 h5py
 imgaug
+```
 
+<<<<<<< HEAD
 ```	
 </br>
 
 ### Once above requirments has been met, you can go ahead run the `train_mask_rcnn.ipynb`
+=======
+### Once above requirments has been met, you can go ahead run the `train_mask_rcnn.ipynb`
+>>>>>>> 2e985fffd055af365ed299ac19e2bac23a0d4d49

@@ -74,7 +74,7 @@ Since we do not have any real data available yet, I decided to make a synthetic 
 
 ### Prerequisites - CUDA and Tensorflow setup
 
-####(You need to have a NVDIA GPU on your PC before going forward! )
+#### (You need to have a NVDIA GPU on your PC before going forward! )
 
 **Windows**
 

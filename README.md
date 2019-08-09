@@ -1,11 +1,17 @@
-# Pole Detection
+# Pole Detection and Classification
 
-NRECA Pole detection project initial stage
+NRECA Pole detection and Classification project initial stage
 
-Author: James Zhou
+Author: James Zhou (Data Science Intern at NRECA)
 
-Supervisor: David Pinney
+Supervisor: David Pinney (Lead Software Engineer at NRECA)
 
+
+## Introduction
+
+NRECA have some eletrical cooperatives who use drones to help them do electrical pole asset management. The way they do it is to have a person fly the drone, and have another person look at the video to perform asset management. This is quite time consuming in my oppinion. Nowdays, with the fast develop of computer vision technology and algorithms, we can automate this human-eye based identificaiton process.
+
+Since we do not have sufficent amount of image data for training the Mask-R-CNN, I decided to create a synthetic dataset just to get some inital results to see if this architeture is possible.
 
 ## Part 1 - Synthetic Image Generation
 
@@ -95,6 +101,11 @@ Since we do not have any real data available yet, I decided to make a synthetic 
 	```
 
 9. Install tensorflow `pip install tensorflow-gpu = 1.13.1`
+	
+	**Note:**
+	* Tensorflow 1.13 is recommended, since it works perfectly on my machine.
+	* If you have the latest Tensorflow 2.0Beta installed, Tensorflow
+	
 
 10. Try the following code in your Python console:
 	
@@ -164,4 +175,20 @@ imgaug
 
 
 ### Once above requirments has been met, you can go ahead run the `train_mask_rcnn.ipynb`
+
+</br>
+
+## Video Inference
+Now We have trained our Mask-R-CNN model and performed inference on image. The further step we  can take is to perform video inference. Thankfully, my buddy **Chengwei Zhang** wrote tool to achieve this. Bellow is his repo and tutorial:
+
+* [GitHub repo](https://github.com/Tony607/colab-mask-rcnn)
+* [Tutorial](https://www.dlology.com/blog/how-to-run-object-detection-and-segmentation-on-video-fast-for-free/)
+
+</br>
+
+## Acknowledgments
+
+* Sythetic Image Generation code thanks to **Adam Kelly** and **Junye Luo**. Beautifull code, easy to modify.
+* Mask-R-CNN package (the `mrcnn` folder in repo), thanks to [Matterport](https://github.com/matterport/Mask_RCNN)
+* Mask-R-CNN Video Inference, thanks to **Chengwei Zhang** [GitHub](https://github.com/Tony607)
 

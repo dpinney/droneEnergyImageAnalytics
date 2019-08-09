@@ -4,8 +4,7 @@ NRECA Pole detection and Classification project initial stage
 
 Author: James Zhou (Data Science Intern at NRECA)
 
-Supervisor: David Pinney (Lead Software Engineer at NRECA)
-
+Supervisor: David Pinney (Analytics Program Manager at NRECA)
 
 ## Introduction
 

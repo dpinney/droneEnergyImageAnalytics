@@ -15,7 +15,9 @@ Since we do not have sufficent amount of image data for training the Mask-R-CNN,
 
 ## Part 1 - Synthetic Image Generation
 
-Since we do not have any real data available yet, I decided to make a synthetic image dataset
+Since we do not have any real data available yet, I decided to make a synthetic image dataset.
+
+The json file that stores patterns' segmention area info and boxing info follow the [coco-dataset](http://cocodataset.org/#explore) format
 
 ### Prerequisites
 
@@ -188,7 +190,7 @@ imgaug
 </br>
 
 ## Video Inference
-Now We have trained our Mask-R-CNN model and performed inference on image. The further step we  can take is to perform video inference. Thankfully, my buddy **Chengwei Zhang** wrote tool to achieve this. Bellow is his repo and tutorial:
+Now We have trained our Mask-R-CNN model and performed inference on image. The further step we  can take is to perform video inference. Thankfully, my buddy **Chengwei Zhang** wrote a tool to achieve this. Bellow is his repo and tutorial:
 
 * [GitHub repo](https://github.com/Tony607/colab-mask-rcnn)
 * [Tutorial](https://www.dlology.com/blog/how-to-run-object-detection-and-segmentation-on-video-fast-for-free/)

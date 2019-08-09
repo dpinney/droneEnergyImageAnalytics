@@ -1,10 +1,10 @@
-# Pole Detection and Classification
+# NRECA - Pole Detection and Classification
 
 NRECA Pole detection and Classification project initial stage
 
 Author: James Zhou (Data Science Intern at NRECA)
 
-Supervisor: David Pinney (Lead Software Engineer at NRECA)
+Supervisor: David Pinney (Analytics Program Manager at NRECA)
 
 
 ## Introduction
@@ -104,7 +104,16 @@ Since we do not have any real data available yet, I decided to make a synthetic 
 	
 	**Note:**
 	* Tensorflow 1.13 is recommended, since it works perfectly on my machine.
-	* If you have the latest Tensorflow 2.0Beta installed, Tensorflow
+	* If you have the latest Tensorflow 2.0Beta installed, Tensorflow2.0 has a tool `tf_upgrade_v2` to to help transition legacy code to the new API. [See details](https://www.tensorflow.org/beta/guide/upgrade)
+	* If you have trouble with `tf_upgrade_v2`, the following Python code can also do the trick for you:
+		
+		```python
+		import tensorflow.compat.v1 as tf
+		tf.disable_v2_behavior()
+		
+		```
+		
+		This makes possible to run 1.X code, unmodified (except for contrib), in TensorFlow 2.0
 	
 
 10. Try the following code in your Python console:

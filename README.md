@@ -9,9 +9,13 @@ Supervisor: David Pinney (Analytics Program Manager at NRECA)
 
 ## Introduction
 
-NRECA have some eletrical cooperatives who use drones to help them do electrical pole asset management. The way they do it is to have a person fly the drone, and have another person look at the video to perform asset management. This is quite time consuming in my oppinion. Nowdays, with the fast develop of computer vision technology and algorithms, we can automate this human-eye based identificaiton process.
+NRECA have some eletrical cooperatives who use drones to help them do electrical pole asset management. The way they do it is to have a person fly the drone, and have another person look at the video to perform asset management. This is quite time consuming in my oppinion. Nowadays, with the fast develop of computer vision technology and algorithms, we can automate this human-eye based identification process.
 
-Since we do not have sufficent amount of image data for training the Mask-R-CNN, I decided to create a synthetic dataset just to get some inital results to see if this architeture is possible.
+Since we do not have sufficent amount of image data for training the Mask-R-CNN, I decided to create a synthetic dataset just to get some inital results to see if this architecture is possible.
+
+The dataset creation and identification network worked well. Below is an example image from the test set showing successful pole identification. For the full results, please see the train and test [Jupyter notebook](https://github.com/dpinney/droneEnergyImageAnalytics/blob/master/train_mask_rcnn.ipynb). 
+
+![](example_test_output.jpg)
 
 ## Part 1 - Synthetic Image Generation
 
